@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cotheeka Srijon Tech</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cotheeka Srijon Tech</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#tools">Tools</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#booking">Booking</a>
+      <button id="loginBtn">Login</button>
+      <button id="logoutBtn" style="display:none;">Logout</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Explore the World of Ethical Hacking</h2>
+    <p>Learn, Practice, and Master Cyber Security with us.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We educate and inspire cybersecurity students between 18 and 45 through hands-on learning and real-world tools.</p>
+  </section>
+
+  <section id="tools">
+    <h2>Tools & Services</h2>
+    <ul>
+      <li>Penetration Testing Labs</li>
+      <li>Vulnerability Scanners</li>
+      <li>Cybersecurity Simulators</li>
+      <li>1-on-1 Mentorship</li>
+    </ul>
+  </section>
+
+  <section id="testimonials">
+    <h2>Customer Testimonials</h2>
+    <blockquote>"Fantastic resources for beginners and pros alike!" – Nina K.</blockquote>
+    <blockquote>"I got my first job in cybersecurity thanks to Cotheeka Srijon Tech." – Imran Z.</blockquote>
+  </section>
+
+  <section id="booking">
+    <h2>Book a Session</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Your goals..." required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button onclick="login()">Login</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
